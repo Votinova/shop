@@ -1,0 +1,48 @@
+.header {
+grid-area: header;
+display: grid;
+grid-template-columns: 25% 45% 30%;
+margin: 30px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 60px;
+letter-spacing: 0.02em;
+color: #4c4c54;
+
+}
+.input {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    color: #4c4c54;
+    border-radius: 15px;
+    width: 150px;
+    height: 20px;
+    border: 2px solid #4c4c54;
+    cursor: pointer;
+}
+.checkbox {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 60px;
+   letter-spacing: 0.02em;
+   color: #4c4c54;
+}
+.label {
+    font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 60px;
+   letter-spacing: 0.02em;
+   color: #4c4c54;
+   margin-right: 20px;
+   cursor: pointer;
+}

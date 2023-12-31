@@ -1,0 +1,35 @@
+.products {
+    margin: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 40px;
+}
+.product {
+    width: 200px;
+    height: 250px;
+    border-radius: 15px;
+    border: 2px solid #828286;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #828286;
+}
+.product img {
+    width: 90px;
+    height: 130px;
+}
+
+.button {
+    margin-top: 10px;
+    background: white;
+    color: #828286;
+    border-radius: 15px;
+    border: 2px solid #828286;
+    height: 30px;
+    cursor: pointer;
+}
+.button:hover {
+    color: white;
+    background-color: #828286;
+}
