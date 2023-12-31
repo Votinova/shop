@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/shop/static/css/main.dc0d1c91.css",
-    "main.js": "/shop/static/js/main.1eb40ae1.js",
-    "static/js/787.b1e6304a.chunk.js": "/shop/static/js/787.b1e6304a.chunk.js",
-    "static/media/iphone15pro.jpg": "/shop/static/media/iphone15pro.b9b75d2bc7d9a333cb4a.jpg",
-    "static/media/iphone15.jpg": "/shop/static/media/iphone15.439c10967bfb64f27586.jpg",
-    "static/media/iphone13.jpg": "/shop/static/media/iphone13.cd2251212e013d95771e.jpg",
-    "static/media/iphone12.jpg": "/shop/static/media/iphone12.04b44a0b8d51f0c0a15a.jpg",
-    "static/media/iphone13pro.jpg": "/shop/static/media/iphone13pro.cb0f0052e84587c532e3.jpg",
-    "static/media/iphone11.jpg": "/shop/static/media/iphone11.ab96e96d351069ab3f4a.jpg",
-    "static/media/iphone14.jpg": "/shop/static/media/iphone14.de1efdeaf1fabfb4431d.jpg",
-    "static/media/iphone14pro.jpg": "/shop/static/media/iphone14pro.12f69596296b56d78709.jpg",
-    "static/media/iphone14proMax.jpg": "/shop/static/media/iphone14proMax.1d6cf171f2e33b6273ff.jpg",
-    "index.html": "/shop/index.html",
-    "main.dc0d1c91.css.map": "/shop/static/css/main.dc0d1c91.css.map",
-    "main.1eb40ae1.js.map": "/shop/static/js/main.1eb40ae1.js.map",
-    "787.b1e6304a.chunk.js.map": "/shop/static/js/787.b1e6304a.chunk.js.map"
+    "main.css": "/react-gh-pages/static/css/main.dc0d1c91.css",
+    "main.js": "/react-gh-pages/static/js/main.755206e9.js",
+    "static/js/787.b1e6304a.chunk.js": "/react-gh-pages/static/js/787.b1e6304a.chunk.js",
+    "static/media/iphone15pro.jpg": "/react-gh-pages/static/media/iphone15pro.b9b75d2bc7d9a333cb4a.jpg",
+    "static/media/iphone15.jpg": "/react-gh-pages/static/media/iphone15.439c10967bfb64f27586.jpg",
+    "static/media/iphone13.jpg": "/react-gh-pages/static/media/iphone13.cd2251212e013d95771e.jpg",
+    "static/media/iphone12.jpg": "/react-gh-pages/static/media/iphone12.04b44a0b8d51f0c0a15a.jpg",
+    "static/media/iphone13pro.jpg": "/react-gh-pages/static/media/iphone13pro.cb0f0052e84587c532e3.jpg",
+    "static/media/iphone11.jpg": "/react-gh-pages/static/media/iphone11.ab96e96d351069ab3f4a.jpg",
+    "static/media/iphone14.jpg": "/react-gh-pages/static/media/iphone14.de1efdeaf1fabfb4431d.jpg",
+    "static/media/iphone14pro.jpg": "/react-gh-pages/static/media/iphone14pro.12f69596296b56d78709.jpg",
+    "static/media/iphone14proMax.jpg": "/react-gh-pages/static/media/iphone14proMax.1d6cf171f2e33b6273ff.jpg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.dc0d1c91.css.map": "/react-gh-pages/static/css/main.dc0d1c91.css.map",
+    "main.755206e9.js.map": "/react-gh-pages/static/js/main.755206e9.js.map",
+    "787.b1e6304a.chunk.js.map": "/react-gh-pages/static/js/787.b1e6304a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc0d1c91.css",
-    "static/js/main.1eb40ae1.js"
+    "static/js/main.755206e9.js"
   ]
 }
