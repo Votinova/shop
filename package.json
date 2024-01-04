@@ -1,8 +1,8 @@
 {
   "name": "shop",
   "version": "0.1.0",
-  "private": true,
   "homepage": "https://Votinova.github.io/shop",
+  "private": true,
   "dependencies": {
     "@phosphor-icons/react": "^2.0.15",
     "@testing-library/jest-dom": "^5.17.0",

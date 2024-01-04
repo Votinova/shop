@@ -1,6 +1,9 @@
 import { item } from "../../../types";
-import React from 'react';
+import React, { useContext, useState } from 'react';
 import { Button } from "./Button";
+import { InputAddToCart } from "./InputAddToCart";
+import { ShopContext } from "../../../context/context";
+
 
 export const Product = (props: {product: item}) => {
 
@@ -12,7 +15,7 @@ export const Product = (props: {product: item}) => {
         <div>
             {props.product.name}
         </div>
-        <Button />    
+        {props.product.showAddToCart? <InputAddToCart id={props.product.id}/> : <Button id={props.product.id}/>}
     </div>
   )
   
