@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shop/static/css/main.dc0d1c91.css",
-    "main.js": "/shop/static/js/main.1eb40ae1.js",
+    "main.css": "/shop/static/css/main.79f57a5f.css",
+    "main.js": "/shop/static/js/main.78d386c4.js",
     "static/js/787.b1e6304a.chunk.js": "/shop/static/js/787.b1e6304a.chunk.js",
     "static/media/iphone15pro.jpg": "/shop/static/media/iphone15pro.b9b75d2bc7d9a333cb4a.jpg",
     "static/media/iphone15.jpg": "/shop/static/media/iphone15.439c10967bfb64f27586.jpg",
@@ -13,12 +13,12 @@
     "static/media/iphone14pro.jpg": "/shop/static/media/iphone14pro.12f69596296b56d78709.jpg",
     "static/media/iphone14proMax.jpg": "/shop/static/media/iphone14proMax.1d6cf171f2e33b6273ff.jpg",
     "index.html": "/shop/index.html",
-    "main.dc0d1c91.css.map": "/shop/static/css/main.dc0d1c91.css.map",
-    "main.1eb40ae1.js.map": "/shop/static/js/main.1eb40ae1.js.map",
+    "main.79f57a5f.css.map": "/shop/static/css/main.79f57a5f.css.map",
+    "main.78d386c4.js.map": "/shop/static/js/main.78d386c4.js.map",
     "787.b1e6304a.chunk.js.map": "/shop/static/js/787.b1e6304a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc0d1c91.css",
-    "static/js/main.1eb40ae1.js"
+    "static/css/main.79f57a5f.css",
+    "static/js/main.78d386c4.js"
   ]
 }
