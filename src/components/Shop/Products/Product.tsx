@@ -9,12 +9,9 @@ export const Product = (props: {product: item}) => {
 
   return(
     <div className="product">
-        <div>
             <img src={props.product.image} alt="Image"/>
-        </div>
-        <div>
             {props.product.name}
-        </div>
+            {props.product.price}
         {props.product.showAddToCart? <InputAddToCart id={props.product.id}/> : <Button id={props.product.id}/>}
     </div>
   )

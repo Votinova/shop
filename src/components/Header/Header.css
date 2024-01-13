@@ -21,9 +21,9 @@ color: #4c4c54;
     letter-spacing: 0.02em;
     color: #4c4c54;
     border-radius: 15px;
-    width: 150px;
+    width: 60%;
     height: 20px;
-    border: 2px solid #4c4c54;
+    border-bottom: 2px solid #4c4c54;
     cursor: pointer;
 }
 .checkbox {
@@ -34,6 +34,14 @@ color: #4c4c54;
    line-height: 60px;
    letter-spacing: 0.02em;
    color: #4c4c54;
+   background-color: white;
+   border: 1px solid #4c4c54;
+   border-radius: 15px;
+   cursor: pointer;
+}
+.checkbox:hover {
+    background-color: #4c4c54;
+    color: white;
 }
 .label {
     font-family: 'Roboto';

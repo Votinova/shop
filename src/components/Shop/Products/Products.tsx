@@ -4,8 +4,7 @@ import { item } from '../../../types';
 import { Product } from './Product';
 import './products.css';
 import { ShopContext } from '../../../context/context';
-import { InputAddToCart } from './InputAddToCart';
-import { Button } from './Button';
+
 
 
 export const Products = () => {

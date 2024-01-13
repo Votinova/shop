@@ -1,8 +1,13 @@
+import { useContext } from "react"
+
+import { ShopContext } from "../../context/context";
+
 export const Checkbox = () => {
+  const {toggleTheme, theme} = useContext(ShopContext);
+  console.log(theme)
   return (
-    <div className='checkbox'>
-       <input type='checkbox' title="checked" className='checked'/>
-       <span className='differences'>Показать различия</span>
-    </div>
+  <button className="checkbox" title="сменить тему" onClick={()=> toggleTheme()}>
+    Сменить тему
+  </button>
   )
 }

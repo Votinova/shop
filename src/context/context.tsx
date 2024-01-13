@@ -4,7 +4,7 @@ import { PRODUCTS } from '../products';
 
 type CountProviderProps = {children: React.ReactNode};
 
-export const ShopContext = createContext <typesContext> ({productCart: [], searchTerm: '', setSearchTerm: (searchTerm: string) => {}, clickAddToCart: false, setClickAddToCart: (clickAddToCart: boolean) => {}, addToCart: (itemId: number) => {}, removeToCart: (itemId: number) => {} });
+export const ShopContext = createContext <typesContext> ({productCart: [], searchTerm: '', setSearchTerm: (searchTerm: string) => {}, clickAddToCart: false, setClickAddToCart: (clickAddToCart: boolean) => {}, addToCart: (itemId: number) => {}, removeToCart: (itemId: number) => {}, theme: 'light', toggleTheme: () => {}});
 const getDefaultCart: () => number [] = () => {
     let cart = []
     for (let i = 0; i < PRODUCTS.length + 1; i++) {
@@ -41,8 +41,12 @@ export const ShopContextProvider = (props: CountProviderProps) => {
             }
         }
     }
-
-    const contexValue = {productCart, searchTerm, setSearchTerm, clickAddToCart, setClickAddToCart, addToCart, removeToCart}
+    const [theme, setTheme] = useState('light')
+    const toggleTheme = () => {
+       setTheme(theme === 'light' ? 'dark' : 'light')
+       console.log(theme);
+   }
+    const contexValue = {productCart, searchTerm, setSearchTerm, clickAddToCart, setClickAddToCart, addToCart, removeToCart, theme, toggleTheme}
     return (
         <ShopContext.Provider value={contexValue}>
             {props.children}

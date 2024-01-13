@@ -2,6 +2,7 @@ export interface item {
     id: number,
     image: string,
     name: string,
+    price: number,
     showAddToCart: boolean
 }
 
@@ -12,5 +13,7 @@ export interface typesContext {
     clickAddToCart: boolean,
     setClickAddToCart: (clickAddToCart: boolean) => void,
     addToCart: (itemId: number) => void,
-    removeToCart: (itemId: number) => void
+    removeToCart: (itemId: number) => void,
+    theme: string, 
+    toggleTheme: () => void
 }

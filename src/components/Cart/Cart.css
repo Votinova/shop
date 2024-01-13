@@ -1,0 +1,32 @@
+.cart {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(900px, 1fr));
+    margin: 30px;
+    gap: 40px;
+    
+}
+.productCart {
+    width: 70%;
+    height: 250px;
+    border-radius: 15px;
+    border: 2px solid #828286;
+    display: flex;
+    justify-content: center;
+    color: #828286; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1.4em;
+
+}
+.productCart img {
+    width: 100px;
+    height: 130px;
+}
+.cartItem {
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
